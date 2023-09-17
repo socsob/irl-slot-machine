@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E22DC732AB67D06005BE6E0 /* slotmeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22DC722AB67D06005BE6E0 /* slotmeApp.swift */; };
+		3E22DC752AB67D06005BE6E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22DC742AB67D06005BE6E0 /* ContentView.swift */; };
+		3E22DC772AB67D08005BE6E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E22DC762AB67D08005BE6E0 /* Assets.xcassets */; };
+		3E22DC7A2AB67D08005BE6E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E22DC792AB67D08005BE6E0 /* Preview Assets.xcassets */; };
+		3E22DC802AB67D08005BE6E0 /* slotme Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3E22DC7F2AB67D08005BE6E0 /* slotme Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3E22DC852AB67D08005BE6E0 /* slotmeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22DC842AB67D08005BE6E0 /* slotmeApp.swift */; };
+		3E22DC872AB67D08005BE6E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22DC862AB67D08005BE6E0 /* ContentView.swift */; };
+		3E22DC892AB67D09005BE6E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E22DC882AB67D09005BE6E0 /* Assets.xcassets */; };
+		3E22DC8C2AB67D09005BE6E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E22DC8B2AB67D09005BE6E0 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E22DC812AB67D08005BE6E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E22DC672AB67D06005BE6E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E22DC7E2AB67D08005BE6E0;
+			remoteInfo = "slotme Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E22DC922AB67D09005BE6E0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3E22DC802AB67D08005BE6E0 /* slotme Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E22DC6F2AB67D06005BE6E0 /* slotme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slotme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E22DC722AB67D06005BE6E0 /* slotmeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slotmeApp.swift; sourceTree = "<group>"; };
+		3E22DC742AB67D06005BE6E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3E22DC762AB67D08005BE6E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E22DC792AB67D08005BE6E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E22DC7F2AB67D08005BE6E0 /* slotme Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "slotme Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E22DC842AB67D08005BE6E0 /* slotmeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slotmeApp.swift; sourceTree = "<group>"; };
+		3E22DC862AB67D08005BE6E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3E22DC882AB67D09005BE6E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E22DC8B2AB67D09005BE6E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E22DC6C2AB67D06005BE6E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E22DC7C2AB67D08005BE6E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E22DC662AB67D06005BE6E0 = {
+			isa = PBXGroup;
+			children = (
+				3E22DC712AB67D06005BE6E0 /* slotme */,
+				3E22DC832AB67D08005BE6E0 /* slotme Watch App */,
+				3E22DC702AB67D06005BE6E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E22DC702AB67D06005BE6E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E22DC6F2AB67D06005BE6E0 /* slotme.app */,
+				3E22DC7F2AB67D08005BE6E0 /* slotme Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E22DC712AB67D06005BE6E0 /* slotme */ = {
+			isa = PBXGroup;
+			children = (
+				3E22DC722AB67D06005BE6E0 /* slotmeApp.swift */,
+				3E22DC742AB67D06005BE6E0 /* ContentView.swift */,
+				3E22DC762AB67D08005BE6E0 /* Assets.xcassets */,
+				3E22DC782AB67D08005BE6E0 /* Preview Content */,
+			);
+			path = slotme;
+			sourceTree = "<group>";
+		};
+		3E22DC782AB67D08005BE6E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3E22DC792AB67D08005BE6E0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3E22DC832AB67D08005BE6E0 /* slotme Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				3E22DC842AB67D08005BE6E0 /* slotmeApp.swift */,
+				3E22DC862AB67D08005BE6E0 /* ContentView.swift */,
+				3E22DC882AB67D09005BE6E0 /* Assets.xcassets */,
+				3E22DC8A2AB67D09005BE6E0 /* Preview Content */,
+			);
+			path = "slotme Watch App";
+			sourceTree = "<group>";
+		};
+		3E22DC8A2AB67D09005BE6E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3E22DC8B2AB67D09005BE6E0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E22DC6E2AB67D06005BE6E0 /* slotme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E22DC932AB67D09005BE6E0 /* Build configuration list for PBXNativeTarget "slotme" */;
+			buildPhases = (
+				3E22DC6B2AB67D06005BE6E0 /* Sources */,
+				3E22DC6C2AB67D06005BE6E0 /* Frameworks */,
+				3E22DC6D2AB67D06005BE6E0 /* Resources */,
+				3E22DC922AB67D09005BE6E0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E22DC822AB67D08005BE6E0 /* PBXTargetDependency */,
+			);
+			name = slotme;
+			productName = slotme;
+			productReference = 3E22DC6F2AB67D06005BE6E0 /* slotme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E22DC7E2AB67D08005BE6E0 /* slotme Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E22DC8F2AB67D09005BE6E0 /* Build configuration list for PBXNativeTarget "slotme Watch App" */;
+			buildPhases = (
+				3E22DC7B2AB67D08005BE6E0 /* Sources */,
+				3E22DC7C2AB67D08005BE6E0 /* Frameworks */,
+				3E22DC7D2AB67D08005BE6E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "slotme Watch App";
+			productName = "slotme Watch App";
+			productReference = 3E22DC7F2AB67D08005BE6E0 /* slotme Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E22DC672AB67D06005BE6E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3E22DC6E2AB67D06005BE6E0 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					3E22DC7E2AB67D08005BE6E0 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3E22DC6A2AB67D06005BE6E0 /* Build configuration list for PBXProject "slotme" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E22DC662AB67D06005BE6E0;
+			productRefGroup = 3E22DC702AB67D06005BE6E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E22DC6E2AB67D06005BE6E0 /* slotme */,
+				3E22DC7E2AB67D08005BE6E0 /* slotme Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E22DC6D2AB67D06005BE6E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E22DC7A2AB67D08005BE6E0 /* Preview Assets.xcassets in Resources */,
+				3E22DC772AB67D08005BE6E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E22DC7D2AB67D08005BE6E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E22DC8C2AB67D09005BE6E0 /* Preview Assets.xcassets in Resources */,
+				3E22DC892AB67D09005BE6E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E22DC6B2AB67D06005BE6E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E22DC752AB67D06005BE6E0 /* ContentView.swift in Sources */,
+				3E22DC732AB67D06005BE6E0 /* slotmeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E22DC7B2AB67D08005BE6E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E22DC872AB67D08005BE6E0 /* ContentView.swift in Sources */,
+				3E22DC852AB67D08005BE6E0 /* slotmeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E22DC822AB67D08005BE6E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E22DC7E2AB67D08005BE6E0 /* slotme Watch App */;
+			targetProxy = 3E22DC812AB67D08005BE6E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3E22DC8D2AB67D09005BE6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E22DC8E2AB67D09005BE6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3E22DC902AB67D09005BE6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"slotme Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = WXNYK89STS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = slotme;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.socsob.slotme;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.socsob.slotme.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		3E22DC912AB67D09005BE6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"slotme Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = WXNYK89STS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = slotme;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.socsob.slotme;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.socsob.slotme.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		3E22DC942AB67D09005BE6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"slotme/Preview Content\"";
+				DEVELOPMENT_TEAM = WXNYK89STS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = slotme;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.socsob.slotme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E22DC952AB67D09005BE6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"slotme/Preview Content\"";
+				DEVELOPMENT_TEAM = WXNYK89STS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = slotme;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.socsob.slotme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E22DC6A2AB67D06005BE6E0 /* Build configuration list for PBXProject "slotme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E22DC8D2AB67D09005BE6E0 /* Debug */,
+				3E22DC8E2AB67D09005BE6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E22DC8F2AB67D09005BE6E0 /* Build configuration list for PBXNativeTarget "slotme Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E22DC902AB67D09005BE6E0 /* Debug */,
+				3E22DC912AB67D09005BE6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E22DC932AB67D09005BE6E0 /* Build configuration list for PBXNativeTarget "slotme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E22DC942AB67D09005BE6E0 /* Debug */,
+				3E22DC952AB67D09005BE6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E22DC672AB67D06005BE6E0 /* Project object */;
+}
