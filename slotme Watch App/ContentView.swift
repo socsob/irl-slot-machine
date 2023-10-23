@@ -6,20 +6,33 @@
 //
 
 import SwiftUI
+import WatchConnectivity
 
 struct ContentView: View {
+    
+    init() {
+        WCSession.default.activate()
+    }
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Button("Signal iPhone") {
+                sendSignalToiPhone()
+            }
         }
-        .padding()
+    }
+    
+    func sendSignalToiPhone() {
+        WCSession.default.sendMessage(["request": "spin"], replyHandler: nil, errorHandler: nil)
+        
+        if WCSession.default.isReachable {
+            print("watchTest2")
+            WCSession.default.sendMessage(["request": "spin"], replyHandler: nil, errorHandler: nil)
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct WatchContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }

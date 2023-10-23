@@ -33,7 +33,7 @@ struct SlotMachineColumn: View {
         self.possibleSymbols = possibleSymbols
         self.widthPosition = widthPosition
         self.viewModel = viewModel
-        _rowSymbols = State(initialValue: (0..<rows).map { _ in possibleSymbols.randomElement()! })
+        _rowSymbols = State(initialValue: (0..<rows).map { _ in possibleSymbols.randomElement() ?? "NA" })
     }
     func spinColumn() {
         timer?.invalidate() // Invalidate the old timer just in case
@@ -53,7 +53,7 @@ struct SlotMachineColumn: View {
                 if self.rowPositions[index] > self.screenHeight + self.rowSize {
                     
                     self.rowPositions[index] = -self.rowSize
-                    self.rowSymbols[index] = self.possibleSymbols.randomElement()!
+                    self.rowSymbols[index] = self.possibleSymbols.randomElement() ?? "NA"
                     // Rigs the final symbol
                     if (timerLoop == animationLength - 2) {
                         rowSymbols[index] = riggedSymbol
